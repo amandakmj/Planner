@@ -6,6 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3710CBF82DB551160004F831 /* PlannerPFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710CBF72DB551130004F831 /* PlannerPFView.swift */; };
+		3710CBFA2DB551280004F831 /* PlannerVestibularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710CBF92DB551200004F831 /* PlannerVestibularView.swift */; };
+		3710CBFC2DB551930004F831 /* AdicionarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710CBFB2DB551870004F831 /* AdicionarView.swift */; };
+		3710CC002DB56F7F0004F831 /* PlannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710CBFF2DB56F740004F831 /* PlannerViewModel.swift */; };
+		3710CC022DB56F8D0004F831 /* AulasMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710CC012DB56F8B0004F831 /* AulasMock.swift */; };
+		372E5E8E2DB573D800A1D03E /* Aula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710CC032DB56FE50004F831 /* Aula.swift */; };
+		372E5E902DB5836300A1D03E /* ProximasAulasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E5E8F2DB5836000A1D03E /* ProximasAulasView.swift */; };
+		372E5E922DB5841F00A1D03E /* AulaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E5E912DB5841D00A1D03E /* AulaCardView.swift */; };
+		372E5E962DB58B6500A1D03E /* AdicionarAulaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372E5E952DB58B3700A1D03E /* AdicionarAulaView.swift */; };
+		373BDF252DB524F40036ADC8 /* PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BDF242DB524F40036ADC8 /* PlannerApp.swift */; };
+		373BDF2C2DB524F40036ADC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BDF2B2DB524F40036ADC8 /* ContentView.swift */; };
+		37E1A3EC2DB5B2350060A985 /* AulaFuturaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A3EB2DB5B22E0060A985 /* AulaFuturaView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		373BDF352DB524F80036ADC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,28 +39,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3710CBF72DB551130004F831 /* PlannerPFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerPFView.swift; sourceTree = "<group>"; };
+		3710CBF92DB551200004F831 /* PlannerVestibularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerVestibularView.swift; sourceTree = "<group>"; };
+		3710CBFB2DB551870004F831 /* AdicionarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarView.swift; sourceTree = "<group>"; };
+		3710CBFF2DB56F740004F831 /* PlannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerViewModel.swift; sourceTree = "<group>"; };
+		3710CC012DB56F8B0004F831 /* AulasMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulasMock.swift; sourceTree = "<group>"; };
+		3710CC032DB56FE50004F831 /* Aula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aula.swift; sourceTree = "<group>"; };
+		372E5E8F2DB5836000A1D03E /* ProximasAulasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximasAulasView.swift; sourceTree = "<group>"; };
+		372E5E912DB5841D00A1D03E /* AulaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaCardView.swift; sourceTree = "<group>"; };
+		372E5E952DB58B3700A1D03E /* AdicionarAulaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarAulaView.swift; sourceTree = "<group>"; };
 		373BDF212DB524F40036ADC8 /* Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		373BDF242DB524F40036ADC8 /* PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerApp.swift; sourceTree = "<group>"; };
+		373BDF2B2DB524F40036ADC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		373BDF342DB524F80036ADC8 /* PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		373BDF3E2DB524F80036ADC8 /* PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E1A3EB2DB5B22E0060A985 /* AulaFuturaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaFuturaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		373BDF232DB524F40036ADC8 /* Planner */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Planner;
-			sourceTree = "<group>";
-		};
-		373BDF372DB524F80036ADC8 /* PlannerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PlannerTests;
-			sourceTree = "<group>";
-		};
-		373BDF412DB524F80036ADC8 /* PlannerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PlannerUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		373BDF1E2DB524F40036ADC8 /* Frameworks */ = {
@@ -72,12 +81,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3710CC042DB572D20004F831 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3710CC032DB56FE50004F831 /* Aula.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		373BDF182DB524F40036ADC8 = {
 			isa = PBXGroup;
 			children = (
-				373BDF232DB524F40036ADC8 /* Planner */,
-				373BDF372DB524F80036ADC8 /* PlannerTests */,
-				373BDF412DB524F80036ADC8 /* PlannerUITests */,
+				37E1A3EB2DB5B22E0060A985 /* AulaFuturaView.swift */,
+				372E5E952DB58B3700A1D03E /* AdicionarAulaView.swift */,
+				372E5E912DB5841D00A1D03E /* AulaCardView.swift */,
+				372E5E8F2DB5836000A1D03E /* ProximasAulasView.swift */,
+				3710CC042DB572D20004F831 /* Model */,
+				3710CC012DB56F8B0004F831 /* AulasMock.swift */,
+				3710CBFF2DB56F740004F831 /* PlannerViewModel.swift */,
+				3710CBFB2DB551870004F831 /* AdicionarView.swift */,
+				3710CBF92DB551200004F831 /* PlannerVestibularView.swift */,
+				3710CBF72DB551130004F831 /* PlannerPFView.swift */,
+				373BDF2B2DB524F40036ADC8 /* ContentView.swift */,
+				373BDF242DB524F40036ADC8 /* PlannerApp.swift */,
 				373BDF222DB524F40036ADC8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,9 +133,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				373BDF232DB524F40036ADC8 /* Planner */,
-			);
 			name = Planner;
 			packageProductDependencies = (
 			);
@@ -130,9 +153,6 @@
 			dependencies = (
 				373BDF362DB524F80036ADC8 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				373BDF372DB524F80036ADC8 /* PlannerTests */,
-			);
 			name = PlannerTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +172,6 @@
 			);
 			dependencies = (
 				373BDF402DB524F80036ADC8 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				373BDF412DB524F80036ADC8 /* PlannerUITests */,
 			);
 			name = PlannerUITests;
 			packageProductDependencies = (
@@ -236,6 +253,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372E5E8E2DB573D800A1D03E /* Aula.swift in Sources */,
+				372E5E922DB5841F00A1D03E /* AulaCardView.swift in Sources */,
+				373BDF252DB524F40036ADC8 /* PlannerApp.swift in Sources */,
+				3710CBF82DB551160004F831 /* PlannerPFView.swift in Sources */,
+				37E1A3EC2DB5B2350060A985 /* AulaFuturaView.swift in Sources */,
+				372E5E902DB5836300A1D03E /* ProximasAulasView.swift in Sources */,
+				3710CBFC2DB551930004F831 /* AdicionarView.swift in Sources */,
+				3710CBFA2DB551280004F831 /* PlannerVestibularView.swift in Sources */,
+				373BDF2C2DB524F40036ADC8 /* ContentView.swift in Sources */,
+				372E5E962DB58B6500A1D03E /* AdicionarAulaView.swift in Sources */,
+				3710CC002DB56F7F0004F831 /* PlannerViewModel.swift in Sources */,
+				3710CC022DB56F8D0004F831 /* AulasMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +417,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Planner/Planner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -425,7 +453,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Planner/Planner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
