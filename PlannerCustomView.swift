@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct PlannerVestibularView: View {
-    @ObservedObject var viewModel = PlannerVestibularViewModel()
+struct PlannerCustomView: View {
+    @ObservedObject var viewModel = PlannerCustomViewModel()
     @State private var mostrarAdicionar = false
     @State private var mostrarProximas = false
 
@@ -43,9 +43,9 @@ struct PlannerVestibularView: View {
                     Divider()
 
                     // 📅 Ver Próximas Aulas
-                    Button(action: {
+                    Button {
                         mostrarProximas = true
-                    }) {
+                    } label: {
                         HStack {
                             Spacer()
                             Text("📅 Ver Próximas Aulas")
@@ -74,32 +74,27 @@ struct PlannerVestibularView: View {
                         )
                     }
 
-                    NavigationLink(destination: ProximasAulasVestibularView(viewModel: viewModel), isActive: $mostrarProximas) {
+                    // 🔁 Link para Próximas Aulas
+                    NavigationLink(destination: ProximasAulasCustomView(viewModel: viewModel), isActive: $mostrarProximas) {
                         EmptyView()
                     }
                     .hidden()
                 }
                 .padding()
             }
-            .navigationTitle("Planner Vestibular")
+            .navigationTitle("Planner Novo")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
+                    Button {
                         mostrarAdicionar = true
-                    }) {
+                    } label: {
                         Image(systemName: "plus")
                     }
                 }
             }
             .sheet(isPresented: $mostrarAdicionar) {
-                AdicionarAulaVestibularView(viewModel: viewModel)
+                AdicionarAulaCustomView(viewModel: viewModel)
             }
         }
-    }
-
-    private func formatarData(_ data: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.dateStyle = .short
-        return formatter.string(from: data)
     }
 }
