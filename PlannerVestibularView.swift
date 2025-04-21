@@ -36,8 +36,10 @@ struct PlannerVestibularView: View {
                             marcarAssistida: { viewModel.marcarAssistidaPorID(aula.id) },
                             atualizarQuestoes: { feitas, acertos in
                                 viewModel.atualizarQuestoes(aula, feitas: feitas, acertos: acertos)
-                            }
+                            },
+                            remover: { viewModel.removerAula(aula.id) }
                         )
+
                     }
 
                     Divider()

@@ -104,6 +104,12 @@ class PlannerVestibularViewModel: ObservableObject {
     func desfazerForcarParaHoje(_ aula: Aula) {
         aulasForcadasParaHoje.remove(aula.id)
     }
+    func removerAula(_ id: UUID) {
+        if let index = aulas.firstIndex(where: { $0.id == id }) {
+            aulas.remove(at: index)
+        }
+    }
+
 
     // MARK: - Persistência
 

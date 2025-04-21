@@ -5,6 +5,7 @@ struct AulaVestibularCard: View {
     var marcarAssistida: () -> Void
     var atualizarQuestoes: (Int?, Int?) -> Void = { _, _ in }
     var forcarParaHoje: (() -> Void)? = nil
+    var remover: (() -> Void)? = nil  // ✅ novo parâmetro
 
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
@@ -73,6 +74,16 @@ struct AulaVestibularCard: View {
                         }
                     }
                     .font(.caption)
+                }
+            }
+
+            // ✅ Botão de excluir
+            if let remover = remover {
+                Button(role: .destructive) {
+                    remover()
+                } label: {
+                    Text("🗑️ Excluir Aula")
+                        .font(.caption)
                 }
             }
         }
